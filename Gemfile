@@ -29,6 +29,10 @@ gem 'haml-rails', '~> 2.1'
 # gem 'image_processing', '~> 1.2'
 
 
+# Phonelib is a gem allowing you to validate phone number.
+gem 'phonelib'
+
+
 gem 'net-smtp', require: false
 gem 'net-imap', require: false
 gem 'net-pop', require: false
