@@ -30,10 +30,3 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  activerecord:
-    errors:
-      models:
-        veterinarian:
-          attributes:
-            number:
-              invalid: "must be in international format (e.g. +14155552671)"

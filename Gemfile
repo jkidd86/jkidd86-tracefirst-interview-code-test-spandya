@@ -28,8 +28,6 @@ gem 'haml-rails', '~> 2.1'
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem 'image_processing', '~> 1.2'
 
-# Phonelib is a gem allowing you to validate phone number.
-gem 'phonelib'
 
 gem 'net-smtp', require: false
 gem 'net-imap', require: false
