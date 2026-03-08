@@ -1,0 +1,21 @@
+# Logs
+/log/*
+!/log/.keep
+
+db/*.sqlite3
+db/*.sqlite3-*
+
+/tmp/*
+!/tmp/.keep
+
+
+tmp/cache/bootsnap/
+
+
+tmp/miniprofiler/
+
+tmp/pids/
+
+tmp/restart.txt
+
+.DS_Store

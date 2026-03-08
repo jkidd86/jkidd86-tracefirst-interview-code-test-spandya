@@ -18,7 +18,7 @@ class VeterinariansController < ApplicationController
     @veterinarian = Veterinarian.new(veterinarian_params)
 
     respond_to do |format|
-      if is_valid_phone_number && @veterinarian.save
+      if @veterinarian.save
         format.html { redirect_to @veterinarian, notice: 'Veterinarian was successfully created.' }
         format.json { render :show, status: :created, location: @veterinarian }
       else
